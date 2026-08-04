@@ -77,22 +77,48 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 <link rel="stylesheet" id="widget-image-css" href="css/widget-image.min.css" media="all">
 <link rel="stylesheet" id="widget-icon-list-css" href="css/widget-icon-list.min.css" media="all">
 <link rel="stylesheet" id="elementor-post-134-css" href="css/post-134.css" media="all">
+<style>
+/* CSS ATUALIZADO DO BOTÃO DE 2 DOSES PARA FICAR COM A COR VERDE DO BOTÃO DE 3 DOSES */
+.elementor-134 .elementor-element.elementor-element-7d23c079 .elementor-button{background-color:#069668;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:800;fill:#FFFFFF;color:#FFFFFF;border-style:none;border-radius:10px 10px 10px 10px;padding:20px 20px 20px 20px;}
+</style>
 <link rel="stylesheet" id="eael-general-css" href="css/general.min.css" media="all">
 <link rel="stylesheet" id="elementor-gf-roboto-css" href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" media="all">
 <link rel="stylesheet" id="elementor-gf-robotoslab-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" media="all">
 <link rel="stylesheet" id="elementor-gf-montserrat-css" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" media="all">
 <script src="js/jquery.min.js" id="jquery-core-js"></script>
 <script src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+
+<!-- Redtrack Scripts -->
+<script type="text/javascript" src="https://go.usfoxnews.site/track.js?rtkcmpid=6a713ac0c1dc71d34396be6c"></script>
+<script>
+    (function() {
+        var DOMAIN = "fzhph.ttrk.net";
+        var EVENT = "InitiateCheckout";
+        function getClickId() {
+            var m = document.cookie.match(/(?:^|;\s*)rtkclickid-store=([^;]*)/);
+            if (m) return decodeURIComponent(m[1]);
+            try { return new URLSearchParams(location.search).get("rtkcid"); } catch(e) {}
+            return null;
+        }
+        document.addEventListener("click", function(e) {
+            var a = e.target.closest && e.target.closest("a[href]");
+            if (!a || a.href.indexOf("/click") === -1) return;
+            var cid = getClickId();
+            if (!cid) return;
+            try { if (sessionStorage.getItem("rtk_ic") === cid) return; } catch(e) {}
+            var url = "https://" + DOMAIN + "/postback?clickid=" + encodeURIComponent(cid) + "&type=" + EVENT;
+            navigator.sendBeacon ? navigator.sendBeacon(url) : (new Image().src = url);
+            try { sessionStorage.setItem("rtk_ic", cid); } catch(e) {}
+        }, true);
+    })();
+</script>
+<!-- /end Redtrack Scripts -->
+
 <link rel="https://api.w.org/" href="https://wehealed.online/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://wehealed.online/wp-json/wp/v2/pages/134"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wehealed.online/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.9.5">
 <link rel="canonical" href="https://wehealed.online/wl-vsl/">
 <link rel="shortlink" href="https://wehealed.online/?p=134">
-<!-- HFCM by 99 Robots - Snippet # 3: Promocode WL -->
-<script src="js/digistore.js"></script>
-<script type="text/javascript">
-digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_domain": true } );
-</script>
-<!-- /end HFCM by 99 Robots -->
+
 <meta name="generator" content="Elementor 4.1.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 			<style>
 				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
@@ -122,16 +148,16 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 				<div class="elementor-element elementor-element-22fa3e1e e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="22fa3e1e" data-element_type="container" data-e-type="container" data-settings="{" background_background":"classic"}"="">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-2cee8801 elementor-widget elementor-widget-html" data-id="2cee8801" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
-<link rel="preload" href="https://scripts.converteai.net/34fb1fe7-3bb6-47cb-bc23-7a91803090b2/ab-test/69dcff9db228a6a6dc400fc8/player.js" as="script">
+<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="https://scripts.converteai.net/c0d39cc6-8a5f-4690-9d0f-24b5ee19bbb8/players/6a71349a296a8fe3f1c2b4d9/v4/player.js" as="script">
 <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/c0d39cc6-8a5f-4690-9d0f-24b5ee19bbb8/6a71348906518ca53c2fd419/main.m3u8" as="fetch">
 <link rel="dns-prefetch" href="https://cdn.converteai.net">
 <link rel="dns-prefetch" href="https://scripts.converteai.net">
 <link rel="dns-prefetch" href="https://images.converteai.net">
-<link rel="dns-prefetch" href="https://m3u8.vturb.net">
 <link rel="dns-prefetch" href="https://license.vturb.com">				</div>
 				<div class="elementor-element elementor-element-464953b elementor-widget__width-inherit elementor-widget elementor-widget-html" data-id="464953b" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<vturb-smartplayer id="ab-69dcff9db228a6a6dc400fc8" style="display: block; margin: 0 auto; width: 100%; "></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/34fb1fe7-3bb6-47cb-bc23-7a91803090b2/ab-test/69dcff9db228a6a6dc400fc8/player.js", s.async=!0,document.head.appendChild(s); </script>				</div>
+<vturb-smartplayer id="vid-6a71349a296a8fe3f1c2b4d9" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 125% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/c0d39cc6-8a5f-4690-9d0f-24b5ee19bbb8/players/6a71349a296a8fe3f1c2b4d9/v4/player.js", s.async=!0,document.head.appendChild(s); </script>				</div>
 				<div class="elementor-element elementor-element-67e813dc elementor-widget elementor-widget-heading" data-id="67e813dc" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default">5839 Die Leute schauen sich das JETZT an</h2>				</div>
 				<div class="elementor-element elementor-element-3da59b4f elementor-widget elementor-widget-heading" data-id="3da59b4f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -143,8 +169,6 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 		<div class="elementor-element elementor-element-1fde04c esconder e-flex e-con-boxed e-con e-parent" data-id="1fde04c" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-3a02678d e-con-full e-flex e-con e-child" data-id="3a02678d" data-element_type="container" data-e-type="container" data-settings="{" background_background":"classic"}"="">
-				<div class="elementor-element elementor-element-8181bc6 elementor-widget elementor-widget-image" data-id="8181bc6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="1024" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%201024'%3E%3C/svg%3E" class="attachment-large size-large wp-image-531" alt="" data-lazy-srcset="https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag.png 1024w, https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag-150x150.png 150w, https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag-768x768.png 768w" data-lazy-sizes="(max-width: 1024px) 100vw, 1024px" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag.png"><noscript><img decoding="async" width="1024" height="1024" src="https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag.png" class="attachment-large size-large wp-image-531" alt="" srcset="https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag.png 1024w, https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag-150x150.png 150w, https://wehealed.online/wp-content/uploads/2026/07/sold-out-tag-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>															</div>
 				<div class="elementor-element elementor-element-13be0a25 elementor-widget elementor-widget-heading" data-id="13be0a25" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 					<h2 class="elementor-heading-title elementor-size-default">Eine Ausprobieren</h2>				</div>
 				<div class="elementor-element elementor-element-93178af elementor-widget elementor-widget-heading" data-id="93178af" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -164,16 +188,16 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 					<h2 class="elementor-heading-title elementor-size-default">GESAMAT: €158</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-7d23c079 elementor-align-justify ds-buy elementor-widget elementor-widget-button" data-id="7d23c079" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://go.usfoxnews.site/click/1">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">AUSVERKAUFT</span>
+									<span class="elementor-button-text">IN DEN WARENKORB</span>
 					</span>
 					</a>
 								</div>
 				<div class="elementor-element elementor-element-45abad61 elementor-widget elementor-widget-text-editor" data-id="45abad61" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>60 Tage Geld-zurück-Garantie</p>								</div>
 				<div class="elementor-element elementor-element-2beb64c elementor-widget elementor-widget-image" data-id="2beb64c" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="254" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%2034'%3E%3C/svg%3E" class="attachment-large size-large wp-image-12" alt="" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp"><noscript><img loading="lazy" decoding="async" width="254" height="34" src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp" class="attachment-large size-large wp-image-12" alt="" /></noscript>															</div>
+															<img decoding="async" width="254" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%2034'%3E%3C/svg%3E" class="attachment-large size-large wp-image-12" alt="" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp"><noscript><img loading="lazy decoding="async" width="254" height="34" src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp" class="attachment-large size-large wp-image-12" alt="" /></noscript>															</div>
 				<div class="elementor-element elementor-element-4d490578 elementor-widget elementor-widget-text-editor" data-id="4d490578" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p><strong>+ €20,00 VERSAND</strong></p>								</div>
 				</div>
@@ -186,7 +210,7 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 				</div>
 		<div class="elementor-element elementor-element-3d949728 e-con-full e-flex e-con e-child" data-id="3d949728" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-aecb2c6 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="aecb2c6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-13" alt="" data-lazy-srcset="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-150x150.png 150w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png"><noscript><img loading="lazy" decoding="async" width="720" height="720" src="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png" class="attachment-large size-large wp-image-13" alt="" srcset="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-150x150.png 150w" sizes="(max-width: 720px) 100vw, 720px" /></noscript>															</div>
+															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-13" alt="" data-lazy-srcset="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-150x150.png 150w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png"><noscript><img loading="lazy decoding="async" width="720" height="720" src="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png" class="attachment-large size-large wp-image-13" alt="" srcset="https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/6-unidades-1-150x150.png 150w" sizes="(max-width: 720px) 100vw, 720px" /></noscript>															</div>
 				</div>
 		<div class="elementor-element elementor-element-1f0ec522 e-con-full e-flex e-con e-child" data-id="1f0ec522" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-27d6e7f8 elementor-widget elementor-widget-heading" data-id="27d6e7f8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -205,7 +229,7 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 						</ul>
 						</div>
 				<div class="elementor-element elementor-element-31b0f489 elementor-align-justify ds-buy elementor-widget elementor-widget-button" data-id="31b0f489" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.checkout-ds24.com/product/651021">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://go.usfoxnews.site/click/3">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">IN DEN WARENKORB</span>
 					</span>
@@ -214,7 +238,7 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 				<div class="elementor-element elementor-element-30b54d47 elementor-widget elementor-widget-text-editor" data-id="30b54d47" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>60 Tage Geld-zurück-Garantie</p>								</div>
 				<div class="elementor-element elementor-element-145a25ed elementor-widget elementor-widget-image" data-id="145a25ed" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="254" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%2034'%3E%3C/svg%3E" class="attachment-large size-large wp-image-12" alt="" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp"><noscript><img loading="lazy" decoding="async" width="254" height="34" src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp" class="attachment-large size-large wp-image-12" alt="" /></noscript>															</div>
+															<img decoding="async" width="254" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%2034'%3E%3C/svg%3E" class="attachment-large size-large wp-image-12" alt="" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp"><noscript><img loading="lazy decoding="async" width="254" height="34" src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp" class="attachment-large size-large wp-image-12" alt="" /></noscript>															</div>
 				<div class="elementor-element elementor-element-1b5e2de3 elementor-widget elementor-widget-text-editor" data-id="1b5e2de3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p><strong>GESAMT:</strong> €1074 €<strong>294</strong></p><p>+ KOSTENLOSER VENSAND IN EUROPA</p>								</div>
 				</div>
@@ -227,7 +251,7 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 				</div>
 		<div class="elementor-element elementor-element-3be7292d e-con-full e-flex e-con e-child" data-id="3be7292d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-2e6cae4f elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="2e6cae4f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-14" alt="" data-lazy-srcset="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-150x150.png 150w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png"><noscript><img loading="lazy" decoding="async" width="720" height="720" src="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-150x150.png 150w" sizes="(max-width: 720px) 100vw, 720px" /></noscript>															</div>
+															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-14" alt="" data-lazy-srcset="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-150x150.png 150w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png"><noscript><img loading="lazy decoding="async" width="720" height="720" src="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1.png 720w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-300x300.png 300w, https://wehealed.online/wp-content/uploads/2026/02/3-unidades-1-150x150.png 150w" sizes="(max-width: 720px) 100vw, 720px" /></noscript>															</div>
 				</div>
 		<div class="elementor-element elementor-element-1fbc16d0 e-con-full e-flex e-con e-child" data-id="1fbc16d0" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-48c51680 elementor-widget elementor-widget-heading" data-id="48c51680" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -246,7 +270,7 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 						</ul>
 						</div>
 				<div class="elementor-element elementor-element-7ea3f90f elementor-align-justify ds-buy elementor-widget elementor-widget-button" data-id="7ea3f90f" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.checkout-ds24.com/product/651019">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://go.usfoxnews.site/click/2">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">IN DEN WARENKORB</span>
 					</span>
@@ -255,9 +279,9 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 				<div class="elementor-element elementor-element-37b309cf elementor-widget elementor-widget-text-editor" data-id="37b309cf" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 									<p>60 Tage Geld-zurück-Garantie</p>								</div>
 				<div class="elementor-element elementor-element-3676d04b elementor-widget elementor-widget-image" data-id="3676d04b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="254" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%2034'%3E%3C/svg%3E" class="attachment-large size-large wp-image-12" alt="" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp"><noscript><img loading="lazy" decoding="async" width="254" height="34" src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp" class="attachment-large size-large wp-image-12" alt="" /></noscript>															</div>
+															<img decoding="async" width="254" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20254%2034'%3E%3C/svg%3E" class="attachment-large size-large wp-image-12" alt="" data-lazy-src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp"><noscript><img loading="lazy decoding="async" width="254" height="34" src="https://wehealed.online/wp-content/uploads/2026/02/cartoes-1.webp" class="attachment-large size-large wp-image-12" alt="" /></noscript>															</div>
 				<div class="elementor-element elementor-element-4618300f elementor-widget elementor-widget-text-editor" data-id="4618300f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p><strong>GESAMT:</strong> €<del>497</del> €207</p><p> + KOSTENLOSER VENSAND IN EUROPA</p>								</div>
+									<p><strong>GESAMT:</strong> €<del>497</del> €207</p><p> + KOSTENLOSER VENSAND IN EUROPA</p>								</div>
 				</div>
 					</div>
 				</div>
@@ -560,25 +584,10 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
 
 <script>
   var listPitch = {
-    '6a5d7dfe10cbdfdd9d146418': { delay: 2718, utm: 'utm_content=vslB' },
-    '6a4d005d82fe867a22756078': { delay: 3210, utm: 'utm_content=vslC' },
-    '6a4d0140a702faa2402f9568': { delay: 3170, utm: 'utm_content=vslD' },
+    '6a71349a296a8fe3f1c2b4d9': { delay: 2623, utm: 'utm_content=vsl' }
   };
 
   var alreadyInitialized = false;
-
-  var updateLinksWithUTM = function(utmParam) {
-    var links = document.querySelectorAll('a[href]:not([href*="#"])');
-    var separator = '?';
-    var queryString = separator + utmParam;
-    for (var i = 0; i < links.length; i++) {
-      var link = links[i];
-      if (link.href.indexOf(utmParam) !== -1) continue;
-      if(utmParam === undefined) return
-      var baseUrl = link.href.split('?')[0];
-      link.href = baseUrl + queryString;
-    }
-  };
 
   document.addEventListener('player:ready', function(event) {
     if (alreadyInitialized) return;
@@ -586,15 +595,13 @@ digistorePromocode( { "product_id": 651021, "adjust_all_urls": true, "adjust_dom
     var detail = event.detail || {};
     var config = detail.config || {};
     var player = detail.player || document.querySelector('vturb-smartplayer');
-    var playerId = config.id;
-    var pitchConfig = listPitch[playerId];
+    var pitchConfig = listPitch['6a71349a296a8fe3f1c2b4d9']; 
 
-    if (!playerId || !pitchConfig) return;
+    if (!pitchConfig) return;
 
     alreadyInitialized = true;
 
     player.displayHiddenElements(pitchConfig.delay, ['.esconder'], { persist: true });
-    //updateLinksWithUTM(pitchConfig.utm);
   });
 </script>				</div>
 					</div>
@@ -722,5 +729,4 @@ if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
 images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
 if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="js/lazyload.min.js"></script>	
 
-
-</body></html><!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1784840163 -->
+</body></html>
