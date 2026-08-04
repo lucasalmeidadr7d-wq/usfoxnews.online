@@ -5,7 +5,7 @@
 <meta name="robots" content="max-image-preview:large">
 <title>[CR] WL VSL V1 – Slimjara – wehealed.online</title>
 <link rel="alternate" type="application/rss+xml" title="Feed para wehealed.online »" href="https://wehealed.online/feed/">
-<link rel="alternate" type="application/rss+xml" title="Feed de comentários para wehealed.online »" href="https://wehealed.online/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários für wehealed.online »" href="https://wehealed.online/comments/feed/">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://wehealed.online/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwehealed.online%2Fwl-vsl%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://wehealed.online/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwehealed.online%2Fwl-vsl%2F&format=xml">
 <style id="wp-img-auto-sizes-contain-inline-css">
@@ -78,8 +78,30 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 <link rel="stylesheet" id="widget-icon-list-css" href="css/widget-icon-list.min.css" media="all">
 <link rel="stylesheet" id="elementor-post-134-css" href="css/post-134.css" media="all">
 <style>
-/* CSS ATUALIZADO DO BOTÃO DE 2 DOSES PARA FICAR COM A COR VERDE DO BOTÃO DE 3 DOSES */
-.elementor-134 .elementor-element.elementor-element-7d23c079 .elementor-button{background-color:#069668;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:800;fill:#FFFFFF;color:#FFFFFF;border-style:none;border-radius:10px 10px 10px 10px;padding:20px 20px 20px 20px;}
+/* BOTÕES DOS PACOTES (2, 3 e 6 DOSES) NA COR LARANJA */
+.elementor-134 .elementor-element.elementor-element-7d23c079 .elementor-button,
+.elementor-134 .elementor-element.elementor-element-31b0f489 .elementor-button,
+.elementor-134 .elementor-element.elementor-element-7ea3f90f .elementor-button {
+    background-color: #d35400 !important;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+/* REMOVER FILTRO CINZA DA IMAGEM DE 2 DOSES */
+.elementor-134 .elementor-element.elementor-element-2de44b78 img { filter: none !important; }
+
+/* ALTERAR GRADIENTE DA CAIXA DE 6 DOSES PARA LARANJA */
+.elementor-134 .elementor-element.elementor-element-29e528b0:not(.elementor-motion-effects-element-type-background),
+.elementor-134 .elementor-element.elementor-element-29e528b0 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent !important;
+    background-image: linear-gradient(180deg, #d35400 0%, #f39c12 100%) !important;
+}
 </style>
 <link rel="stylesheet" id="eael-general-css" href="css/general.min.css" media="all">
 <link rel="stylesheet" id="elementor-gf-roboto-css" href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" media="all">
@@ -210,7 +232,7 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 				</div>
 		<div class="elementor-element elementor-element-3d949728 e-con-full e-flex e-con e-child" data-id="3d949728" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-aecb2c6 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="aecb2c6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-13" alt="" data-lazy-src="img/6-doses.png"><noscript><img loading="lazy" decoding="async" width="720" height="720" src="img/6-doses.png" class="attachment-large size-large wp-image-13" alt="" /></noscript>															</div>
+															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-13" alt="" data-lazy-src="img/6-doses.png"><noscript><img loading="lazy decoding="async" width="720" height="720" src="img/6-doses.png" class="attachment-large size-large wp-image-13" alt="" /></noscript>															</div>
 				</div>
 		<div class="elementor-element elementor-element-1f0ec522 e-con-full e-flex e-con e-child" data-id="1f0ec522" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-27d6e7f8 elementor-widget elementor-widget-heading" data-id="27d6e7f8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -251,7 +273,7 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 				</div>
 		<div class="elementor-element elementor-element-3be7292d e-con-full e-flex e-con e-child" data-id="3be7292d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-2e6cae4f elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="2e6cae4f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-14" alt="" data-lazy-src="img/3-doses.png"><noscript><img loading="lazy" decoding="async" width="720" height="720" src="img/3-doses.png" class="attachment-large size-large wp-image-14" alt="" /></noscript>															</div>
+															<img decoding="async" width="720" height="720" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20720'%3E%3C/svg%3E" class="attachment-large size-large wp-image-14" alt="" data-lazy-src="img/3-doses.png"><noscript><img loading="lazy decoding="async" width="720" height="720" src="img/3-doses.png" class="attachment-large size-large wp-image-14" alt="" /></noscript>															</div>
 				</div>
 		<div class="elementor-element elementor-element-1fbc16d0 e-con-full e-flex e-con e-child" data-id="1fbc16d0" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-48c51680 elementor-widget elementor-widget-heading" data-id="48c51680" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -722,7 +744,7 @@ var localize = {"ajaxurl":"https://wehealed.online/wp-admin/admin-ajax.php","non
 </script>
 <script type="module">
 /*! This file is auto-generated */
-const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
 //# sourceURL=https://wehealed.online/wp-includes/js/wp-emoji-loader.min.js
 </script>
 <script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
